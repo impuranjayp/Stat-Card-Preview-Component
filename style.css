@@ -1,0 +1,81 @@
+@import url(https://fonts.google.com/specimen/Inter);
+@import url(https://fonts.google.com/specimen/Lexend+Deca);
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background: hsl(233, 47%, 7%)
+}
+
+.card {
+    margin-top: 10%;
+    margin-left: 15%;
+    margin-right: 15%;
+    margin-bottom: 7%;
+    background-color: hsl(244, 38%, 16%);
+    display: flex;
+    border-radius: 10px;
+}
+
+.card-text{
+    margin: 5%;
+    padding: 2%
+}
+
+.card-text>h1{
+    color: hsl(0, 0%, 100%);
+    padding-bottom: 15%;
+    font-family: "Inter", sans-serif;
+    font-weight: 700;
+    font-size: xx-large;
+}
+
+.card-text>p{
+    color: hsla(0, 0%, 100%, 0.75);
+    padding-bottom: 20%;
+    font-family: 'Inter', sans-serif;
+}
+
+.card-stats{
+    display: flex;
+   
+}
+
+.stat{
+    padding-right: 10%;
+
+}
+
+.stat>p{
+    color: hsla(0, 0%, 100%, 0.6);
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    font-size:x-small;
+    letter-spacing: 2.5px;
+}
+
+.stat>h2{
+    color: hsl(0, 0%, 100%);
+    font-family: 'Inter', sans-serif;
+    font-weight: 700;
+    padding-bottom: 5px;
+}
+
+img{
+    width: auto;
+    border-radius: 0px 10px 10px 0px;
+}
+
+.attribution { 
+    font-size: 11px; 
+    text-align: center; 
+    color: white;
+}
+
+.attribution a { 
+    color: hsl(228, 45%, 44%); 
+}

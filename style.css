@@ -22,7 +22,9 @@ body{
 }
 
 .card-text{
-    margin: 5%;
+    margin-top: 5%;
+    margin-left: 5%;
+    margin-right: 5%;
     padding: 2%
 }
 
@@ -65,9 +67,26 @@ body{
     padding-bottom: 5px;
 }
 
-img{
-    width: auto;
-    border-radius: 0px 10px 10px 0px;
+.container{
+    position: relative;
+    height: auto;
+}
+
+.container img{
+    width: 540px;
+    height: 100%;
+    border-radius: 0 10px 10px 0;
+}
+
+.img-overlay{
+    position: absolute;
+    background-color: hsl(278, 87%, 33%);
+    opacity: 0.5;
+    height: 100%;
+    width: 540px;
+    top: 0;
+    left: 0px;
+    border-radius: 0 10px 10px 0;
 }
 
 .attribution { 

@@ -11,6 +11,27 @@ body{
     background: hsl(233, 47%, 7%)
 }
 
+.attribution { 
+    font-size: 11px; 
+    text-align: center; 
+    color: white;
+}
+
+.attribution a { 
+    color: hsl(228, 45%, 44%); 
+}
+
+:root{
+    --card-bg: hsl(244, 38%, 16%);
+    --card-accent: hsl(277, 64%, 61%);
+    --main-heading-stats: hsl(0, 0%, 100%);
+    --main-paragraph: hsla(0, 0%, 100%, 0.75);
+    --stat-heading: hsla(0, 0%, 100%, 0.6);
+    --font-family-1: 'Inter', sans-serif;
+    --font-family-2: 'Lexend Deca', sans-serif;
+}
+
+
 .card {
     margin-top: 10%;
     margin-left: 15%;
@@ -40,16 +61,15 @@ body{
     color: hsla(0, 0%, 100%, 0.75);
     padding-bottom: 20%;
     font-family: 'Inter', sans-serif;
+    line-height: 1.5em;
 }
 
 .card-stats{
     display: flex;
-   
 }
 
 .stat{
     padding-right: 10%;
-
 }
 
 .stat>p{
@@ -89,12 +109,81 @@ body{
     border-radius: 0 10px 10px 0;
 }
 
-.attribution { 
-    font-size: 11px; 
-    text-align: center; 
-    color: white;
-}
+@media screen and (max-width: 380px) {
+    .card{
+        display: flex;
+        flex-direction: column-reverse;
+        background-color: var(--card-bg);
+        margin-left: 5%;
+        margin-right: 5%;
+    }
 
-.attribution a { 
-    color: hsl(228, 45%, 44%); 
+    .card-text{
+        margin-left: 5%;
+        margin-right: 5%;
+        margin-top: inherit;
+        text-align: center;
+    }
+
+    .card-text>h1{
+        color: var(--main-heading-stats);
+        padding-bottom: 0%;
+        font-family: var(--font-family-1);
+        font-weight: 700;
+        font-size: 30px;
+    }
+
+    .card-text>p{
+        color: var(--main-paragraph);
+        padding-top: 10%;
+        padding-bottom: 10%;
+        font-family: var(--font-family-1);
+        line-height: 1.5em;
+    }
+
+    .card-stats{
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .stat{
+        padding-bottom: 5%;
+    }
+
+    .stat>p{
+        color: hsla(0, 0%, 100%, 0.6);
+        font-family: 'Inter', sans-serif;
+        font-weight: 400;
+        font-size:x-small;
+        letter-spacing: 2.5px;
+    }
+    
+    .stat>h2{
+        color: hsl(0, 0%, 100%);
+        font-family: 'Inter', sans-serif;
+        font-weight: 700;
+        padding-bottom: 5px;
+    }
+
+    .container{
+        position: relative;
+        height: auto;
+    }
+
+    .container img{
+        width: 100%;
+        height: auto;
+        border-radius: 10px 10px 0 0;
+    }
+
+    .img-overlay{
+        position: absolute;
+        background-color: hsl(278, 87%, 33%);
+        opacity: 0.5;
+        height: 98.7%;
+        width: 100%;
+        top: 0;
+        left: 0px;
+        border-radius: 10px 10px 0 0;
+    }
 }

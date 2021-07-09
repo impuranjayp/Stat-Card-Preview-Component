@@ -28,7 +28,7 @@ Users should be able to:
 ### Links
 
 - Solution URL: [Github Repo](https://github.com/impuranjayp/Stat-Card-Preview-Component)
-- Live Site URL: [Stat-Component-Card](https://your-live-site-url.com)
+- Live Site URL: [Stat-Component-Card](https://impuranjayp.github.io/Stat-Card-Preview-Component/)
 
 ## My process
 
@@ -76,9 +76,8 @@ The image and the overlay was a challenge especially in arranging the divs
 ```
 ## Author
 
-- Website - [Add your name here](https://www.your-site.com)
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/yourusername)
-- Twitter - [@yourusername](https://www.twitter.com/yourusername)
+- Frontend Mentor - [@impuranjayp](https://www.frontendmentor.io/profile/impuranjayp)
+- Twitter - [@impuranjayp](https://twitter.com/impuranjayp)
 
 
 
